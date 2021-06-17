@@ -1,0 +1,52 @@
+@import '~bulma/sass/utilities/initial-variables';
+
+$blue: rgb(37, 100, 163);
+
+$primary: $blue;
+
+@import '~bulma';
+@import "~buefy/src/scss/buefy";
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.media {
+  align-items: center;
+}
+
+.sortable-ghost {
+  opacity: 1;
+}
+
+.handle {
+  display: flex;
+  align-items: center;
+  margin-right: 0.75rem;
+}
+
+.add-items {
+  border-radius: $radius-large;
+  box-shadow: $box-shadow;
+
+  width: auto;
+  height: auto;
+}
+
+.section-dropdown {
+  display: block !important;
+  margin-top: 0.5rem;
+}
+
+.modal-card-body {
+  padding-bottom: 0px;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 100%;
+  }
+}
